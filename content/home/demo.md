@@ -49,18 +49,88 @@ subtitle = ""
 
 Welcome to the **Academic Kickstart** template!
 
-<table border="1">
-  <tr>
-    <th>果物</th><th>test</th>
-  </tr>
-  <tr>
-    <td>イチゴ</td><td>test</td>
-  </tr>
-  <tr>
-    <td>レモン</td><td>test</td>
-  </tr>
-</table>
-
+<p>コンテンツ</p>
+            <div id="users">
+                <input class="search" placeholder="Search" />
+                <button class="sort" data-sort="name">
+                    Sort by name
+                </button>
+                <table>
+                    <!-- IMPORTANT, class="list" have to be at tbody -->
+                    <tbody class="list">
+                        <tr>
+                            <td class="name">Jonny Stromberg</td>
+                            <td class="born">1986</td>
+                        </tr>
+                        <tr>
+                            <td class="name">Jonas Arnklint</td>
+                            <td class="born">1985</td>
+                        </tr>
+                        <tr>
+                            <td class="name">Martina Elm</td>
+                            <td class="born">1986</td>
+                        </tr>
+                        <tr>
+                            <td class="name">Gustaf Lindqvist</td>
+                            <td class="born">1983</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="controls">
+                <button type="button" data-sort="price:asc">Sort by price (low to high)</button>
+                <button type="button" data-sort="price:desc">Sort by price (high to low)</button>
+                <button type="button" data-sort="name:asc">Sort by name (A-Z)</button>
+                <button type="button" data-sort="name:desc">Sort by name (Z-A)</button>
+            </div>
+            <div class="mixitup">
+                <div class="mix" data-price="14.99" data-name="Foo">
+                    <div class="card">
+                        <div class="card-item">
+                            <div>Comp</div>
+                            <div><img src="images/pds_01.jpg" alt="comp-image"></div>
+                        </div>
+                        <div class="card-item">アイテム2</div>
+                        <div class="card-item">アイテム3</div>
+                        <div class="card-item">アイテム4</div>
+                        <div class="card-item">アイテム5</div>
+                        <div class="card-item">アイテム1</div>
+                        <div class="card-item">アイテム2</div>
+                        <div class="card-item">アイテム3</div>
+                        <div class="card-item">アイテム4</div>
+                        <div class="card-item">アイテム5</div>
+                    </div>
+                </div>
+                <div class="mix" data-price="29.99" data-name="Bar">
+                    <div class="card">
+                        <div class="card-item">BasePasta</div>
+                        <div class="card-item">アイテム2</div>
+                        <div class="card-item">アイテム3</div>
+                        <div class="card-item">アイテム4</div>
+                        <div class="card-item">アイテム5</div>
+                        <div class="card-item">アイテム1</div>
+                        <div class="card-item">アイテム2</div>
+                        <div class="card-item">アイテム3</div>
+                        <div class="card-item">アイテム4</div>
+                        <div class="card-item">アイテム5</div>
+                    </div>
+                </div>
+                <div class="mix" data-price="59.99" data-name="Baz">
+                    <div class="card">
+                        <div class="card-item">soylent</div>
+                        <div class="card-item">アイテム2</div>
+                        <div class="card-item">アイテム3</div>
+                        <div class="card-item">アイテム4</div>
+                        <div class="card-item">アイテム5</div>
+                        <div class="card-item">アイテム1</div>
+                        <div class="card-item">アイテム2</div>
+                        <div class="card-item">アイテム3</div>
+                        <div class="card-item">アイテム4</div>
+                        <div class="card-item">アイテム5</div>
+                    </div>
+                </div>
+            </div>
+            
 Follow our [Getting Started](https://sourcethemes.com/academic/docs/get-started/) and [Page Builder](https://sourcethemes.com/academic/docs/widgets/) guides to easily personalize the template and then [add your own content](https://sourcethemes.com/academic/docs/managing-content/).
 
 For inspiration, check out [the Markdown files](https://sourcethemes.com/academic/docs/install/#demo-content) which power the [personal demo](https://academic-demo.netlify.com/). The easiest way to publish your new site to the internet is with [Netlify](https://sourcethemes.com/academic/docs/deployment/).
