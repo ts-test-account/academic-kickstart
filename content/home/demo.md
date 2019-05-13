@@ -51,13 +51,13 @@ Welcome to the **Academic Kickstart** template!
 
 <table border="1">
   <tr>
-    <th>果物</th><th>味</th>
+    <th>果物</th><th>test</th>
   </tr>
   <tr>
-    <td>イチゴ</td><td>甘い</td>
+    <td>イチゴ</td><td>test</td>
   </tr>
   <tr>
-    <td>レモン</td><td>酸っぱい</td>
+    <td>レモン</td><td>test</td>
   </tr>
 </table>
 
