@@ -49,6 +49,18 @@ subtitle = ""
 
 Welcome to the **Academic Kickstart** template!
 
+<table border="1">
+  <tr>
+    <th>果物</th><th>味</th>
+  </tr>
+  <tr>
+    <td>イチゴ</td><td>甘い</td>
+  </tr>
+  <tr>
+    <td>レモン</td><td>酸っぱい</td>
+  </tr>
+</table>
+
 Follow our [Getting Started](https://sourcethemes.com/academic/docs/get-started/) and [Page Builder](https://sourcethemes.com/academic/docs/widgets/) guides to easily personalize the template and then [add your own content](https://sourcethemes.com/academic/docs/managing-content/).
 
 For inspiration, check out [the Markdown files](https://sourcethemes.com/academic/docs/install/#demo-content) which power the [personal demo](https://academic-demo.netlify.com/). The easiest way to publish your new site to the internet is with [Netlify](https://sourcethemes.com/academic/docs/deployment/).
